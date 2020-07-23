@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../components/NavigationBar.js';
-import Footer from '../components/Footer.js';
 
 const TechPage = () => {
   return (
