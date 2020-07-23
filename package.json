@@ -41,6 +41,7 @@
     "strip-ansi": "^5.1.0",
     "svg-term-cli": "^2.1.1",
     "tempy": "^0.2.1",
+    "url-loader": "^4.1.0",
     "wait-for-localhost": "^3.1.0"
   },
   "resolutions": {
@@ -61,6 +62,7 @@
     ]
   },
   "dependencies": {
+    "get-urls": "^9.2.1",
     "mem": "^6.1.0",
     "react-router-dom": "^5.2.0"
   }

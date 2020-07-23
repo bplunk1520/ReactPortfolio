@@ -17,6 +17,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/benjamin-plunkett-2a73189a/">
           <img src={linkedinIcon} alt="LinkedIn" className="Icon" />
         </a>
+        <p className="wip">WIP ;)</p>
       </div>
     </footer>
   );

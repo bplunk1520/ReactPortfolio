@@ -13,7 +13,7 @@ import Footer from './components/Footer.js';
 //Pages
 import MainPage from './Pages/Index.js';
 import TechPage from './Pages/TechPage.js';
-import ProjectsPage from './Pages/Projects.js';
+//import ProjectsPage from './Pages/Projects.js';
 import NotFoundPage from './Pages/404Page.js';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/Tech" component={TechPage} />
-          <Route exact path="/Projects" component={ProjectsPage} />
+          {/* <Route exact path="/Projects" component={ProjectsPage} /> */}
           <Route exact path="/NotFound" component={NotFoundPage} />
           <Redirect to="/NotFound" />
         </Switch>

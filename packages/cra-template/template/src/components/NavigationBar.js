@@ -12,9 +12,9 @@ const Header = () => {
         <Link to="/Tech" className="NavItem">
           TECHNOLOGIES
         </Link>
-        <Link className="NavItem" to="/Projects">
+        {/* <Link className="NavItem" to="/Projects">
           PROJECTS
-        </Link>
+        </Link> */}
       </div>
     </header>
   );

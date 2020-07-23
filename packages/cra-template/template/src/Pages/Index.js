@@ -4,7 +4,7 @@ import desk from '../assets/deskspace.jpg';
 
 const MainPage = () => {
   return (
-    <body>
+    <div>
       <div className="Content-Wrap">
         <div className="Main-Content">
           <h1 className="App-Subtitle">Full Stack Developer</h1>
@@ -17,10 +17,10 @@ const MainPage = () => {
             technology.
           </p>
 
-          <img src={desk} alt="Logo" className="Image-Content" />
+          {/* <img src={desk} alt="Logo" className="Image-Content" /> */}
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 

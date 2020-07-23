@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'),
+    url(./assets/Fonts/AvenirLTStd-Book.otf) format(opentype);
+}
+
 .App {
   position: relative;
   min-height: 100vh;
@@ -7,7 +13,6 @@
 }
 
 .App-Title {
-  font-family: Avenir LT Std;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -17,7 +22,6 @@
 }
 
 .App-Subtitle {
-  font-family: Avenir LT Std;
   font-style: normal;
   font-weight: 350;
   font-size: 48px;
@@ -59,7 +63,6 @@
   width: 50vw;
   text-align: center;
   font-size: 16px;
-  font-family: Avenir LT Std;
 }
 
 .Image-Content {
@@ -82,4 +85,11 @@
 
 .Icon {
   padding: 15px;
+}
+
+.wip {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  font-size: 3px;
 }
