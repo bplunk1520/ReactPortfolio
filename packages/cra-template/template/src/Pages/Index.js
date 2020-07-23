@@ -1,6 +1,6 @@
 import React from 'react';
 
-import desk from '../assets/deskspace.jpg';
+// import desk from '../assets/deskspace.jpg';
 
 const MainPage = () => {
   return (
